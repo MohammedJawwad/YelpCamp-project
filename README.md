@@ -1,39 +1,59 @@
-# YelpCamp
+```markdown
+# YelpCamp: Create and Review Campgrounds
+
+**YelpCamp** is a website where users can create and review campgrounds. To review or create a campground, you must have an account. This project was part of Colt Steele's Web Development Course on Udemy.
 
 ![Image 1](https://github.com/MohammedJawwad/YelpCamp-project/blob/main/screenshots/image1.png)  
-![Image 2](https://github.com/MohammedJawwad/YelpCamp-project/blob/main/screenshots/image2.png)  
-
-YelpCamp is a website where users can create and review campgrounds. In order to review or create a campground, you must have an account. This project was part of Colt Steele's web dev course on udemy.  
-
-This project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.  
+![Image 2](https://github.com/MohammedJawwad/YelpCamp-project/blob/main/screenshots/image2.png)
 
 ## Features
-* Users can create, edit, and remove campgrounds
-* Users can review campgrounds once, and edit or remove their review
-* User profiles include more information on the user (full name, email, phone, join date), their campgrounds, and the option to edit their profile or delete their account
-* Search campground by name or location
-* Sort campgrounds by highest rating, most reviewed, lowest price, or highest price
+- **Create, edit, and remove campgrounds**: Users can manage their own campground listings.
+- **Review campgrounds**: Users can leave one review per campground, with options to edit or remove their review.
+- **User profiles**: Displays detailed user information (full name, email, phone, join date) and their listed campgrounds. Users can also edit their profile or delete their account.
+- **Search functionality**: Search campgrounds by name or location.
+- **Sorting options**: Sort campgrounds by highest rating, most reviews, lowest price, or highest price.
 
-## Run it locally
-1. Install [mongodb](https://www.mongodb.com/)
-2. Create a cloudinary account to get an API key and secret code
+## Technologies Used
+- **Backend**: Node.js, Express
+- **Frontend**: HTML, CSS, Bootstrap
+- **Database**: MongoDB
+- **Authentication**: Passport.js
+- **Cloud Storage**: Cloudinary (for image uploads)
+- **Maps Integration**: Google Maps / Mapbox
 
-```
-git clone https://github.com/himanshup/yelpcamp.git
+## Installation
+
+### 1. Clone the repository
+```bash
+git clone git@github.com:MohammedJawwad/YelpCamp-project.git
 cd yelpcamp
 npm install
 ```
 
-Create a .env file (or just export manually in the terminal) in the root of the project and add the following:  
+### 2. Environment Variables
+Create a `.env` file in the root directory and add the following:
+
+```bash
+DATABASEURL='<your-database-url>'
+API_KEY='<your-cloudinary-api-key>'
+API_SECRET='<your-cloudinary-api-secret>'
+```
+
+### 3. Run the project locally
+- Install [MongoDB](https://www.mongodb.com/try/download/community).
+- Create a [Cloudinary](https://cloudinary.com/) account to get an API key and secret.
+- In one terminal, run MongoDB:
+  ```bash
+  mongod
+  ```
+- In another terminal, start the application:
+  ```bash
+  node app.js
+  ```
+
+- Visit `localhost:3000` in your browser.
+
+### 4. Maps Integration
+To get Google Maps working, follow the [Google Maps API setup guide](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
 ```
-DATABASEURL='<url>'
-API_KEY=''<key>
-API_SECRET='<secret>'
-```
-
-Run ```mongod``` in another terminal and ```node app.js``` in the terminal with the project.  
-
-Then go to [localhost:3000](http://localhost:3000/).
-
-To get google maps working check [this](https://github.com/nax3t/google-maps-api) out.
