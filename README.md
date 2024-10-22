@@ -1,10 +1,8 @@
-```markdown
 # YelpCamp: Create and Review Campgrounds
-
-**YelpCamp** is a website where users can create and review campgrounds. To review or create a campground, you must have an account. This project was part of Colt Steele's Web Development Course on Udemy.
-
 ![Image 1](https://github.com/MohammedJawwad/YelpCamp-project/blob/main/screenshots/image1.png)  
 ![Image 2](https://github.com/MohammedJawwad/YelpCamp-project/blob/main/screenshots/image2.png)
+
+**YelpCamp** is a website where users can create and review campgrounds. To review or create a campground, you must have an account. This project was part of Colt Steele's Web Development Course on Udemy.
 
 ## Features
 - **Create, edit, and remove campgrounds**: Users can manage their own campground listings.
@@ -25,10 +23,9 @@
 
 ### 1. Clone the repository
 ```bash
-git clone git@github.com:MohammedJawwad/YelpCamp-project.git
+git clone https://github.com/himanshup/yelpcamp.git
 cd yelpcamp
 npm install
-```
 
 ### 2. Environment Variables
 Create a `.env` file in the root directory and add the following:
