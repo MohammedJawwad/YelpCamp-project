@@ -23,7 +23,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/himanshup/yelpcamp.git
+git clone https://github.com/MohammedJawwad/YelpCamp-project.git
 cd yelpcamp
 npm install
 
@@ -52,5 +52,3 @@ API_SECRET='<your-cloudinary-api-secret>'
 
 ### 4. Maps Integration
 To get Google Maps working, follow the [Google Maps API setup guide](https://developers.google.com/maps/documentation/javascript/get-api-key).
-
-```
