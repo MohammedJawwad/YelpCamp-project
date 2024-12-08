@@ -51,5 +51,3 @@ API_SECRET='<your-cloudinary-api-secret>'
 
 - Visit `localhost:3000` in your browser.
 
-### 4. Maps Integration
-To get Google Maps working, follow the [Google Maps API setup guide](https://developers.google.com/maps/documentation/javascript/get-api-key).
