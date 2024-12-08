@@ -41,7 +41,7 @@ API_SECRET='<your-cloudinary-api-secret>'
 - Create a [Cloudinary](https://cloudinary.com/) account to get an API key and secret.
 - In one terminal, run MongoDB:
   ```bash
-  mongod
+  mongosh
   ```
 - In another terminal, start the application:
   ```bash
